@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  furcare-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: furcare-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
