@@ -1,0 +1,7 @@
+{
+  "name": "furcare-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cp -r build/web public || xcopy /E /I /Y build\\web public"
+  }
+}
