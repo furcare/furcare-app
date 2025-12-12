@@ -3,10 +3,10 @@
   "outputDirectory": "build/web",
   "installCommand": "echo 'No install needed'",
   "framework": null,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
